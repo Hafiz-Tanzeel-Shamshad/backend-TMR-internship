@@ -1,0 +1,36 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations cache (optional: comment out if you want migrations in git)
+# */migrations/*.py
+# !*/migrations/__init__.py
